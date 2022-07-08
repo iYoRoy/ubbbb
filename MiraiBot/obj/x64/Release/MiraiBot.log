@@ -1,0 +1,64 @@
+﻿  正在验证源
+  正在将源远程复制到“localhost”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(32,36): warning : comparison of integer expressions of different signedness: ‘unsigned int’ and ‘int’ [-Wsign-compare]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(106,20): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<GroupWarn>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(106,20): warning :   106 |  for (int i = 0; i < GroupWarns.size(); i++) {
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(106,20): warning :       |                  ~~^~~~~~~~~~~~~~~~~~~
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(115,20): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<GroupPerm>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(115,20): warning :   115 |  for (int i = 0; i < GroupPerms.size(); i++) {
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(115,20): warning :       |                  ~~^~~~~~~~~~~~~~~~~~~
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(141,20): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<GroupWarn>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(141,20): warning :   141 |  for (int i = 0; i < GroupWarns.size(); i++) {
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(141,20): warning :       |                  ~~^~~~~~~~~~~~~~~~~~~
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(146,21): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<MemberWarn>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(146,21): warning :   146 |   for (int j = 0; j < GroupWarns[i].MemberWarns.size(); j++) {
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(146,21): warning :       |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(151,20): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<GroupPerm>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(151,20): warning :   151 |  for (int i = 0; i < GroupPerms.size(); i++) {
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(151,20): warning :       |                  ~~^~~~~~~~~~~~~~~~~~~
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(153,21): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<long int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(153,21): warning :   153 |   for (int j = 0; j < GroupPerms[i].PermGroups.size(); j++)
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(153,21): warning :       |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(168,20): warning : comparison of integer expressions of different signedness: ‘int’ and ‘Json::Value::ArrayIndex’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(168,20): warning :   168 |  for (int i = 0; i < root["DisabledGroups"].size(); i++)
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(168,20): warning :       |                  ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(170,20): warning : comparison of integer expressions of different signedness: ‘int’ and ‘Json::Value::ArrayIndex’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(170,20): warning :   170 |  for (int i = 0; i < root["WarnGroups"].size(); i++) {
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(170,20): warning :       |                  ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(175,66): warning : conversion from ‘Json::Value::Int’ {aka ‘int’} to ‘short int’ may change value [-Wconversion]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(175,66): warning :   175 |   mG.WarnOperation = root["WarnGroups"][i]["WarnOperation"].asInt();
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(175,66): warning :       |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(177,21): warning : comparison of integer expressions of different signedness: ‘int’ and ‘Json::Value::ArrayIndex’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(177,21): warning :   177 |   for (int j = 0; j < root["WawrnGroups"][i]["MemberWarns"].size(); j++) {
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(177,21): warning :       |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(185,20): warning : comparison of integer expressions of different signedness: ‘int’ and ‘Json::Value::ArrayIndex’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(185,20): warning :   185 |  for (int i = 0; i < root["PermissionGroups"].size(); i++) {
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(185,20): warning :       |                  ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(189,21): warning : comparison of integer expressions of different signedness: ‘int’ and ‘Json::Value::ArrayIndex’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(189,21): warning :   189 |   for (int j = 0; j < root["PermissionGroups"][i]["Members"].size(); j++)
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(189,21): warning :       |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(249,34): warning : conversion from ‘std::vector<GroupPerm>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(249,34): warning :   249 |     PermIter = GroupPerms.size() - 1;
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(249,34): warning :       |                ~~~~~~~~~~~~~~~~~~^~~
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(314,35): warning : conversion from ‘std::vector<GroupWarn>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(314,35): warning :   314 |      WarnIter = GroupWarns.size() - 1;
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(314,35): warning :       |                 ~~~~~~~~~~~~~~~~~~^~~
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(325,15): warning : passing argument 1 to restrict-qualified parameter aliases with argument 3 [-Wrestrict]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(325,15): warning :   325 |       sprintf(infostr, "%s\n时长：%d秒", infostr, GroupWarns[WarnIter].WarnMuteTime);
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(325,15): warning :       |               ^~~~~~~                        ~~~~~~~
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(430,24): warning : comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(430,24): warning :   430 |        if (targetWarns >= GroupWarns[WarnIter].WarnLimit) {
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(430,24): warning :       |            ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(510,11): warning : right operand of comma operator has no effect [-Wunused-value]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(510,11): warning :   510 |        gid;
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(510,11): warning :       |           ^
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(523,15): warning : passing argument 1 to restrict-qualified parameter aliases with argument 3 [-Wrestrict]
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(523,15): warning :   523 |       sprintf(infostr, "%s\n%lld", infostr, GroupPerms[PermIter].PermGroups[i]);
+C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\main.cpp(523,15): warning :       |               ^~~~~~~              ~~~~~~~
+  正在链接对象
+  MiraiBot.vcxproj -> C:\Users\33633\Desktop\Projects\Cpp\MiraiBot\MiraiBot\bin\x64\Release\MiraiBot.out

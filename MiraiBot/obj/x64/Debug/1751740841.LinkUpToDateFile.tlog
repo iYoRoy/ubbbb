@@ -1,0 +1,1 @@
+g++ -o "/root/projects/MiraiBot/bin/x64/Debug/MiraiBot.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/MiraiBot/obj/x64/Debug/main.o -l"mirai-cpp" -lpthread -ljsoncpp

@@ -1,0 +1,1 @@
+g++ -o "/home/ubuntu/projects/MiraiBot/bin/ARM64/Release/MiraiBot.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/ubuntu/projects/MiraiBot/obj/ARM64/Release/main.o /home/ubuntu/projects/MiraiBot/obj/ARM64/Release/ping.o -l"mirai-cpp" -lpthread
